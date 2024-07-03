@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #f4f4f4;
+    overflow-x: hidden;
+}
+
+.image-container{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+}
+#homepage-main-image{
+    height: 70vh;
+    background: url("./assets/header_image.png");
+    width: 100%;
+    margin-inline: 10vw;
+    background-size:cover;
+    background-position: center;
+}
+#homepage-new-in-image{
+    display: inline-block;
+    border: 2px solid red;
+    height: 70vh;
+    background: url("./assets/header_image.png");
+    width: 100%;
+    margin-inline: 10vw;
+    background-size:cover;
+    background-position: center;
+}
+#homepage-men-image{
+    display: inline-block;
+    border: 2px solid rgb(0, 4, 255);
+    height: 70vh;
+    background: url("./assets/header_image.png");
+    width: 100%;
+    margin-inline: 10vw;
+    background-size:cover;
+    background-position: center;
+}
+
+#homepage-new-in{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#homepage-men{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#homepage-women{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#homepage-new-in-products{
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    margin-top: 5vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#homepage-men-products{
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    margin-top: 5vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+#homepage-women-products{
+    display: flex;
+    align-items: center;
+    width: 90vw;
+    margin-top: 5vh;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.slider-horizontal{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    width: 90vw;
+    margin-left: 10vw;
+}
+
+.homepage-product{
+    cursor: pointer;
+    background-color: white;
+    outline: none;
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+    align-items: center;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.homepage-product > img{
+    width: 200px;
+    height: 300px;
+}
